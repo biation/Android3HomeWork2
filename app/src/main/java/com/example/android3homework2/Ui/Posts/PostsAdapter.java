@@ -3,15 +3,11 @@ package com.example.android3homework2.Ui.Posts;
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-
 import com.example.android3homework2.Data.Models.Post;
 import com.example.android3homework2.ItemOnClick;
 import com.example.android3homework2.databinding.ItemPostBinding;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

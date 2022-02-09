@@ -5,9 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.23703703703703705" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14387031408308004" />
-        <entry key="app/src/main/res/layout/fragment_form.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/fragment_form.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_posts.xml" value="0.13728470111448834" />
-        <entry key="app/src/main/res/layout/item_post.xml" value="0.14387031408308004" />
+        <entry key="app/src/main/res/layout/item_post.xml" value="0.25" />
       </map>
     </option>
   </component>

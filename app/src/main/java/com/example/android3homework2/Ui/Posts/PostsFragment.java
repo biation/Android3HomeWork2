@@ -24,6 +24,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+
 public class PostsFragment extends Fragment {
 
     private FragmentPostsBinding binding;
@@ -46,7 +47,7 @@ public class PostsFragment extends Fragment {
             @Override
             public void onLongClick(int position) {
                 Post post3 = adapter.getPost(position);
-                if (post3.getUserId() == 6) {
+                if (post3.getUserId() == 2) {
                     App.api.deletePosts(post3.getId()).enqueue(new Callback<Post>() {
                         @Override
                         public void onResponse(@NonNull Call<Post> call, @NonNull Response<Post> response) {
@@ -107,7 +108,7 @@ public class PostsFragment extends Fragment {
     private void openFragment(Post post) {
         Bundle bundle = new Bundle();
         bundle.putSerializable("ttt", post);
-        NavController navController = Navigation.findNavController(requireActivity(),R.id.nav_host_fragment);
+        NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
         navController.navigate(R.id.formFragment, bundle);
     }
 }

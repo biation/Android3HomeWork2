@@ -10,7 +10,7 @@
         android:id="@+id/tv_user_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         tools:text="UserId" />
 
     <TextView
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp"
         tools:text="Title" />
 
@@ -38,13 +38,13 @@
         android:layout_margin="10dp"
         android:textStyle="bold"
         android:textSize="16dp"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="6dp"
-        android:background="@color/white"/>
+        android:background="@color/black"/>
 
 </LinearLayout>

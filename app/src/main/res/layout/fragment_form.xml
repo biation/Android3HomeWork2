@@ -11,14 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ed_title"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:hint="Title"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ed_content"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:hint="Content"
         android:layout_marginTop="10dp"/>
 

@@ -5,18 +5,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
-
 import com.example.android3homework2.Data.Models.Post;
 import com.example.android3homework2.R;
 import com.example.android3homework2.Utils.App;
 import com.example.android3homework2.databinding.FragmentFormBinding;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -95,12 +92,8 @@ public class FormFragment extends Fragment {
                 });
             }
         });
-        setupListeners();
     }
 
-    private void setupListeners() {
-        binding.btnSend.setOnClickListener(view -> createPost());
-    }
 
     private void createPost() {
         String title = binding.edTitle.getText().toString();
